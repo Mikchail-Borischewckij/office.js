@@ -7,7 +7,7 @@
     var messageBanner;
     
     var x = new XMLHttpRequest();
-    x.open('GET,"http://localhost:20400");
+    x.open("GET","http://localhost:20400");
     x.send();
 
 
