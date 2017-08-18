@@ -36,7 +36,7 @@
     <Host Name="Document" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="~remoteAppUrl/Home.html" />
+    <SourceLocation DefaultValue="https://mikchail-borischewckij.github.io/office.js/WordAddinWeb/Home.html" />
   </DefaultSettings>
   <!-- End TaskPane Mode integration.  -->
 
