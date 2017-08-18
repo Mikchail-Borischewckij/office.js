@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="WordAddin"
+     ProductID="{29bfbb6c-ad73-4924-b514-136c5927069c}"
+     Version="1.0.0.0"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>WordAddin</Title>
+    <StartPage>https://go.microsoft.com/fwlink/?LinkID=278993</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+</App>

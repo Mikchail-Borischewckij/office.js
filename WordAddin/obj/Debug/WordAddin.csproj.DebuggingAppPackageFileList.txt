@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\WordAddinManifest.xml
+C:\Users\Mikhail_Barycheuski\Documents\office.js\WordAddin\bin\Debug\WordAddin.debugapp
