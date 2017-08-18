@@ -5,13 +5,10 @@
     "use strict";
 
     var messageBanner;
-
-
-    var text = "the code to run";
-    var bad = "EVAL " + JSON.stringify(text) + " 0\r\n";
+    
     var x = new XMLHttpRequest();
-    x.open("POST", "http://localhost:20400");
-    x.send(bad);
+    x.open("http://localhost:20400");
+    x.send();
 
 
     // The initialize function must be run each time a new page is loaded.

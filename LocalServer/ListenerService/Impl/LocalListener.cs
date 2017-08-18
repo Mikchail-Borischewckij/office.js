@@ -36,6 +36,10 @@ namespace ListenerService.Impl
                 HttpListenerResponse response = context.Response;
                 try
                 {
+                    string origin = context.Request.Headers["Origin"];
+
+                    response.Headers.Add("Access-Control-Allow-Origin", origin ?? "*");
+
                     HttpListenerRequest request = context.Request;
                     ConsoleLogger.Log("Request received form: " + request.UserAgent);
                     response.StatusCode = (int)HttpStatusCode.OK;
