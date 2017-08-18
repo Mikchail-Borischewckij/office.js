@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalServer", "LocalServer\LocalServer.csproj", "{DF98D627-EF33-4207-93D5-1E5D7FE9EDCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListenerService", "ListenerService\ListenerService.csproj", "{89CF9EB0-FBF1-4C03-9C0D-B8D184E0E9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListenerService.Common", "ListenerService.Common\ListenerService.Common.csproj", "{61B4879E-BC20-4DA1-9E35-97C89D37786C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF98D627-EF33-4207-93D5-1E5D7FE9EDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF98D627-EF33-4207-93D5-1E5D7FE9EDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF98D627-EF33-4207-93D5-1E5D7FE9EDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF98D627-EF33-4207-93D5-1E5D7FE9EDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CF9EB0-FBF1-4C03-9C0D-B8D184E0E9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CF9EB0-FBF1-4C03-9C0D-B8D184E0E9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CF9EB0-FBF1-4C03-9C0D-B8D184E0E9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CF9EB0-FBF1-4C03-9C0D-B8D184E0E9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B4879E-BC20-4DA1-9E35-97C89D37786C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B4879E-BC20-4DA1-9E35-97C89D37786C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B4879E-BC20-4DA1-9E35-97C89D37786C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B4879E-BC20-4DA1-9E35-97C89D37786C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
