@@ -8,7 +8,7 @@
     
     $.ajax({
             type: "GET",
-            url: "http://localhost:20400" ,
+            url: "//localhost:20400" ,
             success: function (data) {
             console.log(data.toString);
             }
