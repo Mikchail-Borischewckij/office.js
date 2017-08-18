@@ -6,10 +6,13 @@
 
     var messageBanner;
     
-    var x = new XMLHttpRequest();
-    x.open("GET","http://localhost:20400");
-    x.send();
-
+    $.ajax({
+            type: "GET",
+            url: "http://localhost:20400" ,
+            success: function (data) {
+            console.log(data.toString);
+            }
+        });
 
     // The initialize function must be run each time a new page is loaded.
     Office.initialize = function (reason) {
